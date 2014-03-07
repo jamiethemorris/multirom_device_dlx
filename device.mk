@@ -22,6 +22,12 @@ PRODUCT_COPY_FILES += \
     device/htc/dlx/recovery/sbin/detect_key:recovery/root/sbin/detect_key \
     device/htc/dlx/recovery/sbin/offmode_charging:recovery/root/sbin/offmode_charging
 
+# For F2FS support (F2FS tools are needed)
+PRODUCT_PACKAGES += \
+    mkfs.f2fs \
+    fsck.f2fs \
+    fibmap.f2fs
+
 #$(call inherit-product, build/target/product/full.mk)
 
 PRODUCT_NAME := htc_dlx
