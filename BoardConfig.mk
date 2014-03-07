@@ -129,5 +129,5 @@ MR_INPUT_TYPE := type_b
 MR_INIT_DEVICES := device/htc/dlx/mr_init_devices.c
 MR_DPI := xhdpi
 MR_FSTAB := device/htc/dlx/recovery.fstab
-#MR_USE_MROM_FSTAB := true #commenting this out for now, since it's working...
+MR_USE_MROM_FSTAB := true #this should allow sense ROMs to boot
 MR_KEXEC_MEM_MIN := 0x85000000
