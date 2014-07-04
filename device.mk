@@ -20,7 +20,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/htc/dlx/recovery/sbin/choice_fn:recovery/root/sbin/choice_fn \
     device/htc/dlx/recovery/sbin/detect_key:recovery/root/sbin/detect_key \
-    device/htc/dlx/recovery/sbin/offmode_charging:recovery/root/sbin/offmode_charging
+    device/htc/dlx/recovery/sbin/offmode_charging:recovery/root/sbin/offmode_charging \
+    device/htc/dlx/recovery/fstab.dlx:recovery/root/fstab.dlx
 
 #$(call inherit-product, build/target/product/full.mk)
 
